@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="select passengers" skipped="0" tests="4" time="21.96" timestamp="2022-09-12 01:14:54"><testcase name="Child passenger with preselection greater than nine"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']&#13;
+com.speedup.qa.questions.PassengersReservation.answeredBy(PassengersReservation.java:15)&#13;
+com.speedup.qa.questions.PassengersReservation.answeredBy(PassengersReservation.java:12)&#13;
+com.speedup.qa.stepdefinition.pasajerosStepDefinitions.ifItIsGreaterThanNineTheLinkReservaDeGrupos(pasajerosStepDefinitions.java:49)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
